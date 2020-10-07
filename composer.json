@@ -1,0 +1,24 @@
+{
+  "name": "dez64ru/dbase-helper",
+  "type": "library",
+  "description": "Helper for dBase",
+  "keywords": ["dbase","dbf","database"],
+  "homepage": "https://github.com/dez64ru/dbase-helper",
+  "require": {
+    "php": ">=7.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dez64ru aka Denis Buhsaev",
+      "email": "dez64ru@gmail.com",
+      "homepage": "https://vk.com/dez64ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "dBaseHelper\\" : "src"
+    }
+  }
+}
